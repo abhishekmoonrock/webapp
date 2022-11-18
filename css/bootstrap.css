@@ -1,0 +1,1633 @@
+ /*
+body {
+    
+   /*
+    background-color:rgb(137, 40, 255);
+
+}
+*/
+
+.h h1 {
+  
+  color: red;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 30s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 30s;
+   animation-iteration-count: infinite;
+
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+ 0%   {color: red;}
+  1%  {color: #2E8B57;}
+  2%  {color: blue;}
+  3% {color: green;}
+  4% {color: black;}
+  5% {color: grey;}
+  6% {color: lightblue;}
+  7% {color: brown;}
+  8% {color: blue;}
+  9% {color: gold;}
+  10% {color: darkblue;}
+  11% {color: blueviolet;}
+  12% {color: burlywood;}
+  13% {color: #7FFF00;}
+  14% {color: #6495ED;}
+  15% {color: #DC143C}
+  16% {color: #00FFFF;}
+  17% {color: #008B8B;}
+  18% {color: #006400;}
+  19% {color: #9932CC;}
+  20% {color: #556B2F;}
+  21% {color: #00FFFF;}
+  22% {color: #7FFFD4;}
+  23% {color: #F0FFFF;}
+  24% {color: #FFE4C4;}
+  25% {color: #0000FF;}
+  26% {color: #8A2BE2;}
+  27% {color: #A52A2A;}
+  28% {color: #DEB887;}
+  29% {color: #5F9EA0;}
+  30% {color: #7FFF00;}
+  31% {color: #D2691E;}
+  32% {color: #FF7F50;}
+  33% {color: #6495ED;}
+  34% {color: #DC143C;}
+   35% {color: #00FFFF;}
+  36% {color: #00008B;}
+  37% {color: #008B8B;}
+  38% {color: #B8860B;}
+  39% {color: #A9A9A9;}
+  40% {color: #006400;}
+  41% {color: #BDB76B;}
+  42% {color: #8B008B;}
+  43% {color: #556B2F;}
+  44% {color: #FF8C00;}
+  45% {color: #9932CC;}
+  46% {color: #8B0000;}
+  47% {color: #E9967A;}
+  48% {color: #8FBC8F;}
+  49% {color: #483D8B;}
+   50% {color:  #2F4F4F;}
+  51% {color:   #2F4F4F;}
+  52% {color:   #00CED1;}
+  53% {color:   #9400D3;}
+  54% {color: #FF1493;}
+  55% {color: #00BFFF;}
+  56% {color: #696969;}
+  57% {color: #1E90FF;}
+  58% {color: #B22222;}
+  59% {color:   #228B22;}
+  60% {color: #FF00FF;}
+  61% {color:   #DCDCDC;}
+  62% {color: #FFD700;}
+  63% {color: #DAA520;}
+  64% {color: #808080;}
+   65% {color: #008000;}
+  66% {color: #ADFF2F;}
+  67% {color: #FF69B4;}
+  68% {color: #CD5C5C;}
+  69% {color: #4B0082;}
+  70% {color: #F0E68C;}
+  71% {color: #7CFC00;}
+  72% {color: #ADD8E6;}
+  73% {color: #F08080;}
+  74% {color: #E0FFFF;}
+  75% {color: #90EE90;}
+  76% {color: #FFB6C1;}
+   77% {color: #FFA07A;}
+  78% {color: #20B2AA ;}
+  79% {color: #87CEFA;}
+  80% {color: #B0C4DE;}
+   81% {color:#00FF00;}
+  82% {color: #32CD32;}
+  83% {color: #FF00FF;}
+  84% {color: #800000;}
+  85% {color: #66CDAA;}
+  86% {color: #0000CD;}
+  87% {color: #BA55D3;}
+  88% {color: #9370DB ;}
+  89% {color: #3CB371;}
+  90% {color:   #7B68EE;}
+  91% {color: #00FA9A;}
+  92% {color: #48D1CC;}
+  93% {color: #C71585;}
+  94% {color: #191970;}
+  95% {color: #808000;}
+   96% {color: #6B8E23;}
+  97% {color: #FFA500;}
+  98% {color: #FF4500;}
+  99% {color: #DA70D6;}
+  100% {color: #663399;}
+}
+
+/* Standard syntax */
+@keyframes example {
+  0%   {color: red;}
+  1%  {color: #2E8B57;}
+  2%  {color: blue;}
+  3% {color: green;}
+  4% {color: black;}
+  5% {color: grey;}
+  6% {color: lightblue;}
+  7% {color: brown;}
+  8% {color: blue;}
+  9% {color: gold;}
+  10% {color: darkblue;}
+  11% {color: blueviolet;}
+  12% {color: burlywood;}
+  13% {color: #7FFF00;}
+  14% {color: #6495ED;}
+  15% {color: #DC143C}
+  16% {color: #00FFFF;}
+  17% {color: #008B8B;}
+  18% {color: #006400;}
+  19% {color: #9932CC;}
+  20% {color: #556B2F;}
+  21% {color: #00FFFF;}
+  22% {color: #7FFFD4;}
+  23% {color: #F0FFFF;}
+  24% {color: #FFE4C4;}
+  25% {color: #0000FF;}
+  26% {color: #8A2BE2;}
+  27% {color: #A52A2A;}
+  28% {color: #DEB887;}
+  29% {color: #5F9EA0;}
+  30% {color: #7FFF00;}
+  31% {color: #D2691E;}
+  32% {color: #FF7F50;}
+  33% {color: #6495ED;}
+  34% {color: #DC143C;}
+   35% {color: #00FFFF;}
+  36% {color: #00008B;}
+  37% {color: #008B8B;}
+  38% {color: #B8860B;}
+  39% {color: #A9A9A9;}
+  40% {color: #006400;}
+  41% {color: #BDB76B;}
+  42% {color: #8B008B;}
+  43% {color: #556B2F;}
+  44% {color: #FF8C00;}
+  45% {color: #9932CC;}
+  46% {color: #8B0000;}
+  47% {color: #E9967A;}
+  48% {color: #8FBC8F;}
+  49% {color: #483D8B;}
+   50% {color:  #2F4F4F;}
+  51% {color:   #2F4F4F;}
+  52% {color:   #00CED1;}
+  53% {color:   #9400D3;}
+  54% {color: #FF1493;}
+  55% {color: #00BFFF;}
+  56% {color: #696969;}
+  57% {color: #1E90FF;}
+  58% {color: #B22222;}
+  59% {color:   #228B22;}
+  60% {color: #FF00FF;}
+  61% {color:   #DCDCDC;}
+  62% {color: #FFD700;}
+  63% {color: #DAA520;}
+  64% {color: #808080;}
+   65% {color: #008000;}
+  66% {color: #ADFF2F;}
+  67% {color: #FF69B4;}
+  68% {color: #CD5C5C;}
+  69% {color: #4B0082;}
+  70% {color: #F0E68C;}
+  71% {color: #7CFC00;}
+  72% {color: #ADD8E6;}
+  73% {color: #F08080;}
+  74% {color: #E0FFFF;}
+  75% {color: #90EE90;}
+  76% {color: #FFB6C1;}
+   77% {color: #FFA07A;}
+  78% {color: #20B2AA ;}
+  79% {color: #87CEFA;}
+  80% {color: #B0C4DE;}
+   81% {color:#00FF00;}
+  82% {color: #32CD32;}
+  83% {color: #FF00FF;}
+  84% {color: #800000;}
+  85% {color: #66CDAA;}
+  86% {color: #0000CD;}
+  87% {color: #BA55D3;}
+  88% {color: #9370DB ;}
+  89% {color: #3CB371;}
+  90% {color:   #7B68EE;}
+  91% {color: #00FA9A;}
+  92% {color: #48D1CC;}
+  93% {color: #C71585;}
+  94% {color: #191970;}
+  95% {color: #808000;}
+   96% {color: #6B8E23;}
+  97% {color: #FFA500;}
+  98% {color: #FF4500;}
+  99% {color: #DA70D6;}
+  100% {color: #663399;}
+ 
+}
+
+.item img{
+  height: 200px !important;
+ 
+  margin-top: 10%;
+ 
+
+}
+
+ .container1
+    {
+      width: 100%
+      height:auto;
+      background:;
+      /* add flexbox style*/
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-flow: wrap;
+      
+    }
+    .box1
+    {
+      width: 20%;
+      height: 300px;
+      background:;
+      margin:10px;
+      box-sizing: border-box;
+      font-size: 10px;
+      
+
+    }
+
+    /* add responsive media quaries*/
+
+    @media screen and (max-width:1200px ){
+      .box1{
+        width: 40%;
+      }
+    }
+    @media screen and (max-width:600px ){
+      .box1{
+        width: 30%;
+      }
+    }
+ /* Safari 4.0 - 8.0 */
+
+
+    .container-fluid{
+      animation-name: menu;
+     animation-duration: 10s;
+      animation-iteration-count: infinite;
+      -webkit-animation-name: menu; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    }
+    @keyframes menu{
+      0%{background-color:    #00FFFF; }
+      25%{background-color: #ADFF2F ;}
+      50%{background-color: #20B2AA;}
+      75%{background-color: yellow;}
+      100%{background-color: #ADFF2F;}
+    }
+
+    @-webkit-keyframes menu{
+          0%{background-color:  #F0FFF0; }
+      25%{background-color:   #F0FFFF;}
+      50%{background-color: #F5F5DC;}
+      75%{background-color: #FFFAF0;}
+      100%{background-color: #DCDCDC;}
+  
+  
+}
+
+
+
+
+
+ footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    #a{
+    background-color:#008B8B;
+    }
+     #b{
+    background-color:lightblue;
+    }
+
+      .container-fluid{
+      animation-name: menuu;
+     animation-duration: 10s;
+      animation-iteration-count: infinite;
+      -webkit-animation-name: menuu; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    }
+    @keyframes menuu{
+      10%{background-color:    #3399ff; }
+      20%{background-color: #1a8cff;}
+      30%{background-color: #0073e6;}
+      40%{background-color: #004d99;}
+      50%{background-color: #0066cc;}
+      60%{background-color: #0073e6;}
+     
+
+
+    }
+
+    @-webkit-keyframes menuu{
+       
+  
+  
+}
+
+
+
+   #y
+   {
+    
+    font-size: 35px;
+    animation-name: men;
+     animation-duration: 5s;
+      animation-iteration-count: infinite;
+      -webkit-animation-name: men; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    }
+    @keyframes men{
+     0%{color:    #DC143C; }
+      50%{color: #8B0000;}
+      75%{color: #FF4500;}
+      100%{color: #FF6347;}
+    }
+   @-webkit-keyframes men{
+    0%{color:    #DC143C; }
+      50%{color: #8B0000;}
+      75%{color: #FF4500;}
+      100%{color: #FF6347;}
+
+
+   }
+ 
+ .navbar-toggle
+   {
+    
+    animation-name: hh;
+     animation-duration: 10s;
+      animation-iteration-count: infinite;
+      -webkit-animation-name: hh; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    }
+    @keyframes hh{
+      0%{background-color:    #008000; }
+      50%{background-color: #7CFC00;}
+      75%{background-color: #ADFF2F;}
+      100%{background-color: #00FF00;}
+    }
+   @-webkit-keyframes hh{
+    0%{background-color:    #008000; }
+      50%{background-color: #ADFF2F;}
+      75%{background-color: #7CFC00;}
+      100%{background-color: #00FF00;}
+
+
+   }
+ 
+ 
+  .m
+   {
+    
+    animation-name: mm;
+     animation-duration: 3s;
+      animation-iteration-count: infinite;
+      -webkit-animation-name: mm; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    }
+    @keyframes mm{
+      0%{color:    #008080;}
+      25%{color:    #808000;}
+      50%{color: #4682B4;}
+      75%{color: #2E8B57;}
+      100%{color: #8B4513;}
+    }
+   @-webkit-keyframes mm{
+    0%{background-color:    #008000; }
+      50%{background-color: #ADFF2F;}
+      75%{background-color: #7CFC00;}
+      100%{background-color: #00FF00;}
+
+
+   }
+   
+
+  #l
+   {
+
+
+
+
+    text-align:center;
+    background-color:yellow;
+    font-size: 20px;
+    animation-name: ll;
+     animation-duration: 10s;
+      animation-iteration-count: infinite;
+      -webkit-animation-name: ll; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    }
+    @keyframes ll{
+      0%{color:    red;}
+      
+      50%{color: green;}
+      75%{color: blue;}
+      100%{color: black;}
+    }
+   @-webkit-keyframes ll{
+    0%{background-color:    #008000; }
+      50%{background-color: #ADFF2F;}
+      75%{background-color: #7CFC00;}
+      100%{background-color: #00FF00;}
+
+
+   }
+
+
+
+
+
+    #f
+   {
+    
+    
+   
+    animation-name: ff;
+     animation-duration: 5s;
+      animation-iteration-count: infinite;
+      -webkit-animation-name: ff; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    }
+    @keyframes ff{
+      0%{color:    red;}
+      
+      
+      
+      100%{color: white;}
+    }
+   @-webkit-keyframes ff{
+    0%{color:    red;}
+      
+     
+      
+      100%{color: white;}
+
+
+   }
+   #fote
+    {
+    text-align: center;
+   background-color: white;
+    }
+    
+
+
+   #fott
+   {
+    text-align: center;
+    animation-name: fo;
+     animation-duration: 10s;
+      animation-iteration-count: infinite;
+      -webkit-animation-name: fo; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    }
+    @keyframes fo{
+      0%{background-color:    #436470; }
+      50%{background-color: #395560;}
+      75%{background-color:   #304750;}
+      100%{background-color: #263940;}
+    }
+   @-webkit-keyframes fo{
+     0%{background-color:    #436470; }
+      50%{background-color: #395560;}
+      75%{background-color:   #304750;}
+      100%{background-color: #263940;}
+
+   }
+      #c
+   {
+    
+    
+   
+    animation-name: cc;
+     animation-duration: 15s;
+      animation-iteration-count: infinite;
+      -webkit-animation-name: cc; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 15s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    }
+    @keyframes cc{
+      0%{color:    blue;}
+      
+      50%{color: green;}
+      
+      100%{color: red;}
+    }
+   @-webkit-keyframes cc{
+    0%{background-color:    #008000; }
+      50%{background-color: #ADFF2F;}
+      75%{background-color: #7CFC00;}
+      100%{background-color: #00FF00;}
+
+
+   }
+
+
+.fa {
+  padding: 5px;
+  font-size: 25px;
+  width: 44px;
+  text-align: center;
+  text-decoration: none;
+   margin: 5px 2px;
+  border-radius: 30%;
+  
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest-p {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-vine {
+  background: #00b489;
+  color: white;
+}
+
+.fa-foursquare {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+
+.fa-flickr {
+  background: #f40083;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+
+
+
+   .mmm
+   {
+    
+    
+   
+    animation-name: mmm;
+     animation-duration: 30s;
+      animation-iteration-count: infinite;
+      -webkit-animation-name: mmm; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 30s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    }
+    @keyframes mmm{
+      10%{color:    blue;}
+      20%{color:    red;}
+      30%{color:    blue;}
+      40%{color:    red;}
+      50%{color: blue;}
+      60%{color:    red;}
+      70%{color:    blue;}
+      80%{color:    red;}
+      90%{color:    blue;}
+      100%{color:    red;}
+      
+      
+    }
+   @-webkit-keyframes mmm{
+   10%{color:    blue;}
+      20%{color:    red;}
+      30%{color:    blue;}
+      40%{color:    red;}
+      50%{color: blue;}
+      60%{color:    red;}
+      70%{color:    blue;}
+      80%{color:    red;}
+      90%{color:    blue;}
+      100%{color:    red;}
+      
+
+
+   }
+
+    #mmmm
+   {
+   
+
+    animation-name: mmmm;
+     animation-duration: 20s;
+      animation-iteration-count: infinite;
+      -webkit-animation-name: mmmm; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 20s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    }
+    @keyframes mmmm{
+      
+  10%  {color: white;}
+  50%  {color: black;}
+  100% {color: white;}
+      
+      
+    }
+   @-webkit-keyframes mmmm{
+   10%  {color: white;}
+  50%  {color: black;}
+  100% {color: white;}
+      
+
+
+   }
+
+
+#llll
+   {
+    
+    
+   
+    animation-name: llll;
+     animation-duration: 3s;
+      animation-iteration-count: infinite;
+      -webkit-animation-name: llll; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    }
+    @keyframes llll{
+      10%{color:  white;}
+      100%{color:  black;}
+     
+      
+      
+    }
+   @-webkit-keyframes llll{
+   10%{color: white;}
+      100%{color:  black;}
+     
+   }
+
+
+   #mmmmm
+   {
+   
+
+    animation-name: mmmmm;
+     animation-duration: 30s;
+      animation-iteration-count: infinite;
+      -webkit-animation-name: mmmmm; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 30s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    }
+    @keyframes mmmmm{
+      
+  10%  {color: 800080;}
+  50%  {color: white;}
+  100% {color: 800080;}
+      
+      
+    }
+   @-webkit-keyframes mmmmm{
+   10%  {color: 800080;}
+  50%  {color: white;}
+  100% {color: 800080;}
+      
+
+
+   }
+
+
+
+  #mmmmmb
+   {
+   
+
+    animation-name: mmmmmb;
+     animation-duration: 10s;
+      animation-iteration-count: infinite;
+      -webkit-animation-name: mmmmmb; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    }
+    @keyframes mmmmmb{
+      
+  10%  {color: #00FF7F;}
+  50%  {color: white;}
+  100% {color:  #00FF7F;}
+      
+      
+    }
+   @-webkit-keyframes mmmmmb{
+   10%  {color: #00FF7F;}
+  50%  {color: white;}
+  100% {color: #00FF7F;}
+      
+
+
+   }
+
+
+    #ppp
+   {
+   
+
+    animation-name: ppp;
+     animation-duration: 20s;
+      animation-iteration-count: infinite;
+      -webkit-animation-name: ppp; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 20s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    }
+    @keyframes ppp{
+      
+  10%  {color: white;}
+  50%  {color: black;}
+  100% {color: white;}
+      
+      
+    }
+   @-webkit-keyframes ppp{
+   10%  {color: white;}
+  50%  {color: black;}
+  100% {color: white;}
+      
+
+
+   }
+
+
+     #fff
+   {
+   
+
+    animation-name: fff;
+     animation-duration: 5s;
+      animation-iteration-count: infinite;
+      -webkit-animation-name: fff; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    }
+    @keyframes fff{
+      
+  10%  {color: black;}
+  50%  {color: blue;}
+  100% {color: black;}
+      
+      
+    }
+   @-webkit-keyframes fff{
+   10%  {color: black;}
+  50%  {color: blue;}
+  100% {color: black;}
+      
+
+
+   }
+
+
+      #nnn
+   {
+   
+
+    animation-name: nnn;
+     animation-duration: 7s;
+      animation-iteration-count: infinite;
+      -webkit-animation-name: nnn; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 7s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    }
+    @keyframes nnn{
+      
+  10%  {color: #D2691E;}
+  30%  {color: #228B22;}
+  60%  {color: #DC143C;}
+  100% {color: #8B008B;}
+      
+      
+    }
+   @-webkit-keyframes nnn{
+    10%  {color: #D2691E;}
+  30%  {color: #228B22;}
+  60%  {color: #DC143C;}
+  100% {color: #8B008B;}
+      
+
+
+   }
+
+
+
+
+     #mmmmc
+   {
+   
+
+    animation-name: mmmmc;
+     animation-duration: 5s;
+      animation-iteration-count: infinite;
+      -webkit-animation-name: mmmmc; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    }
+    @keyframes mmmmc{
+      
+  10%  {color: #00FFFF;}
+  50%  {color: #00FF00;}
+  100% {color: #FF7F50;}
+      
+      
+    }
+   @-webkit-keyframes mmmmc{
+         
+    10%  {color: #00FFFF;}
+  50%  {color: #00FF00;}
+  100% {color: #FF7F50;}
+      
+      
+
+
+   }
+
+
+
+    #diss
+   {
+   
+
+    animation-name: diss;
+     animation-duration: 3s;
+      animation-iteration-count: infinite;
+      -webkit-animation-name: diss; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    }
+    @keyframes diss{
+      
+     
+    10%  {color: #00BFFF;}
+  50%  {color: #65e765;}
+  100% {color: #00BFFF;}
+      
+      
+    }
+   @-webkit-keyframes diss{
+         
+    10%  {color: #00BFFF;}
+  50%  {color: #65e765;}
+  100% {color: #00BFFF;}
+      
+      
+
+
+   }
+
+
+
+
+    #dissf
+   {
+   
+
+    animation-name: dissf;
+     animation-duration: 13s;
+      animation-iteration-count: infinite;
+      -webkit-animation-name: dissf; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 13s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    }
+    @keyframes dissf{
+      
+     
+    10%  {color: white;}
+  50%  {color: #00FF00;}
+  100% {color: white;}
+      
+      
+    }
+   @-webkit-keyframes dissf{
+         
+    10%  {color: white;}
+  50%  {color: #00FF00;}
+  100% {color: white;}
+      
+      
+
+
+   }
+
+
+
+
+  
+     #smm
+   {
+   
+
+    animation-name: smm;
+     animation-duration: 5s;
+      animation-iteration-count: infinite;
+      -webkit-animation-name: smm; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    }
+    @keyframes smm{
+      
+  10%  {color: black;}
+  50%  {color: red;}
+  100% {color: black;}
+      
+      
+    }
+   @-webkit-keyframes smm{
+         
+    10%  {color: black;}
+  50%  {color: red;}
+  100% {color: black;}
+      
+      
+
+
+   }
+
+
+
+     #smmm
+   {
+   
+
+    animation-name: smmm;
+     animation-duration: 7s;
+      animation-iteration-count: infinite;
+      -webkit-animation-name: smmm; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 7s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    }
+    @keyframes smmm{
+      
+  10%  {color: #191970;}
+  50%  {color: #FF1493;}
+  70%  {color: #191970;}
+  100% {color: #FF1493;}
+      
+      
+    }
+   @-webkit-keyframes smmm{
+         
+    10%  {color: #191970;}
+  50%  {color: #FF1493;}
+  70%  {color: #191970;}
+  100% {color: #FF1493;}
+      
+      
+
+
+   }
+
+      #smmh
+   {
+   
+
+    animation-name: smmh;
+     animation-duration: 9s;
+      animation-iteration-count: infinite;
+      -webkit-animation-name: smmh; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 9s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    }
+    @keyframes smmh{
+      
+  10%  {color: #191970;}
+  50%  {color: #FF1493;}
+  70%  {color: #191970;}
+   80%  {color: #FF1493;}
+  100% {color:  #191970;}
+      
+      
+    }
+   @-webkit-keyframes smmh{
+         
+    10%  {color: #191970;}
+  50%  {color: #FF1493;}
+  70%  {color: #191970;}
+   80%  {color: #FF1493;}
+  100% {color:  #191970;}
+      
+      
+
+
+   }
+
+
+
+      #pmm
+   {
+   
+
+    animation-name: pmm;
+     animation-duration: 5s;
+      animation-iteration-count: infinite;
+      -webkit-animation-name: pmm; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    }
+    @keyframes pmm{
+      
+  10%  {color: #9370DB;}
+  50%  {color: #7B68EE;}
+  70%  {color: #BA55D3;}
+   80%  {color: #FF00FF;}
+  100% {color:  #9370DB;}
+      
+      
+    }
+   @-webkit-keyframes pmm{
+         
+   10%  {color: #9370DB;}
+  50%  {color: #7B68EE;}
+  70%  {color: #BA55D3;}
+   80%  {color: #FF00FF;}
+  100% {color:  #9370DB;}
+      
+      
+
+
+   }
+
+
+
+      #ggg
+   {
+   
+
+    animation-name: ggg;
+     animation-duration: 3s;
+      animation-iteration-count: infinite;
+      -webkit-animation-name: ggg; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    }
+    @keyframes ggg{
+      
+  10%  {color: #00FFFF;}
+  20%  {color: #7FFF00;}
+  30%  {color: #5F9EA0;}
+   40%  {color: #D2691E;}
+  50% {color:  #DC143C;}
+   60%  {color: #006400;}
+  70%  {color: #9400D3;}
+  80%  {color: #FFD700;}
+   90%  {color: #7CFC00;}
+  100% {color:  #9ACD32;}
+      
+      
+    }
+   @-webkit-keyframes ggg{
+         
+   10%  {color: #00FFFF;}
+  20%  {color: #7FFF00;}
+  30%  {color: #5F9EA0;}
+   40%  {color: #D2691E;}
+  50% {color:  #DC143C;}
+   60%  {color: #006400;}
+  70%  {color: #9400D3;}
+  80%  {color: #FFD700;}
+   90%  {color: #7CFC00;}
+  100% {color:  #9ACD32;}
+      
+      
+      
+
+
+   }
+
+
+#glow {
+  font-family: 'Mystery Quest', cursive;
+  font-size: 30px;
+  color: #0700ff;
+  text-align: center;
+  -webkit-animation: glow 4s ease-in-out infinite alternate;
+  -moz-animation: glow 4s ease-in-out infinite alternate;
+  animation: glow 4s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 7px white, 0 0 12px white, 0 0 17px white, 0 0 22px white;
+  }
+  
+  to {
+    text-shadow: 0 0 12px #66fcff, 0 0 22px #66fcff, 0 0 32px #66fcff, 0 0 39px white;
+  }
+}
+
+/* to  =  text-shadow: 0 0 8px #0080ff, 0 0 13px #0080ff, 0 0 17px #0080ff;  from ==text-shadow: 0 0 5px #0080ff, 0 0 10px #0080ff, 0 0 15px #0080ff;  */
+
+#gloww {
+  
+ 
+ 
+  -webkit-animation: gloww 1s ease-in-out infinite alternate;
+  -moz-animation: gloww 1s ease-in-out infinite alternate;
+  animation: gloww 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes gloww {
+  from {
+    text-shadow: 0 0 8px #333333;
+  }
+  
+  to {
+    text-shadow: 0 0 9px #333333;
+  }
+}
+
+
+#gloow {
+  
+ 
+ 
+  -webkit-animation: gloow 1s ease-in-out infinite alternate;
+  -moz-animation: gloow 1s ease-in-out infinite alternate;
+  animation: gloow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes gloow {
+  from {
+    text-shadow: 0 0 5px white;
+  }
+  
+  to {
+    text-shadow: 0 0 5px white;
+  }
+}
+
+
+#glowsu {
+  
+ 
+ 
+  -webkit-animation: glowsu 1s ease-in-out infinite alternate;
+  -moz-animation: glowsu 1s ease-in-out infinite alternate;
+  animation: glowsu 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glowsu {
+  from {
+    text-shadow: 0 0 3px white;
+  }
+  
+  to {
+    text-shadow: 0 0 3px white;
+  }
+}
+
+#glowsuu {
+  
+ 
+ 
+  -webkit-animation: glowsuu 1s ease-in-out infinite alternate;
+  -moz-animation: glowsuu 1s ease-in-out infinite alternate;
+  animation: glowsuu 1s ease-in-out infinite alternate;
+  
+}
+
+@-webkit-keyframes glowsuu {
+  from {
+    text-shadow: 0 0 2px white;
+  }
+  
+  to {
+    text-shadow: 0 0 2px white;
+  }
+}
+
+
+#pvrt {
+  
+ 
+ 
+  -webkit-animation: pvrt 1s ease-in-out infinite alternate;
+  -moz-animation: pvrt 1s ease-in-out infinite alternate;
+  animation: pvrt 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes pvrt {
+  from {
+    text-shadow: 0 0 2px #003300;
+  }
+  
+  to {
+    text-shadow: 0 0 2px #003300;
+  }
+}
+
+
+#pvrtt {
+  
+ 
+ 
+  -webkit-animation: pvrtt 1s ease-in-out infinite alternate;
+  -moz-animation: pvrtt 1s ease-in-out infinite alternate;
+  animation: pvrtt 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes pvrtt {
+  from {
+    text-shadow: 0 0 3px #003300;
+  }
+  
+  to {
+    text-shadow: 0 0 3px #003300;
+  }
+}
+
+
+#sfrn {
+  
+ 
+ 
+  -webkit-animation: sfrn 1s ease-in-out infinite alternate;
+  -moz-animation: sfrn 1s ease-in-out infinite alternate;
+  animation: sfrn 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes sfrn {
+  from {
+    text-shadow: 0 0 2px black;
+  }
+  
+  to {
+    text-shadow: 0 0 2px black;
+  }
+}
+
+
+
+#glowf {
+  
+ 
+ 
+  -webkit-animation: glowf 1s ease-in-out infinite alternate;
+  -moz-animation: glowf 1s ease-in-out infinite alternate;
+  animation: glowf 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glowf {
+  from {
+    text-shadow: 0 0 6px white;
+  }
+  
+  to {
+    text-shadow: 0 0 7px red;
+  }
+}
+
+
+
+
+#glowlogos {
+  
+ 
+ 
+  -webkit-animation: glowlogos 1s ease-in-out infinite alternate;
+  -moz-animation: glowlogos 1s ease-in-out infinite alternate;
+  animation: glowlogos 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glowlogos {
+  from {
+    text-shadow: 0 0 7px red;
+  }
+  
+  to {
+    text-shadow: 0 0 8px red;
+  }
+}
+
+
+#moren {
+  
+ 
+ 
+  -webkit-animation: moren 1s ease-in-out infinite alternate;
+  -moz-animation: moren 1s ease-in-out infinite alternate;
+  animation: moren 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes moren {
+  from {
+    text-shadow: 0 0 6px black, 0 0 6px black, 0 0 6px black;
+  }
+  
+  to {
+    text-shadow: 0 0 7px black, 0 0 7px black, 0 0 8px black,;
+  }
+}
+
+#review {
+  
+ 
+ 
+  -webkit-animation: review 1s ease-in-out infinite alternate;
+  -moz-animation: review 1s ease-in-out infinite alternate;
+  animation: review 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes review {
+  from {
+    text-shadow: 0 0 6px white, 0 0 6px white, 0 0 6px white;
+  }
+  
+  to {
+    text-shadow: 0 0 7px white, 0 0 7px white, 0 0 8px white,;
+  }
+}
+
+ 
+
+  #aboutt {
+  
+ 
+ 
+  -webkit-animation: aboutt 1s ease-in-out infinite alternate;
+  -moz-animation: aboutt 1s ease-in-out infinite alternate;
+  animation: aboutt 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes aboutt {
+  from {
+    text-shadow: 0 0 6px #0073e6, 0 0 6px #0073e6, 0 0 6px #0073e6;
+  }
+  
+  to {
+    text-shadow: 0 0 7px #32cd32, 0 0 7px #32cd32, 0 0 8px #32cd32;
+  }
+}
+
+ .affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+
+
+
+
+    #teas
+   {
+   
+
+    animation-name: teas;
+     animation-duration: 5s;
+      animation-iteration-count: infinite;
+      -webkit-animation-name: teas; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    }
+    @keyframes teas{
+      
+  10%  {color: #008080;}
+  50%  {color: #80c41c;}
+  100% {color: #008080;}
+      
+      
+    }
+   @-webkit-keyframes teas{
+   10%  {color: #008080;}
+  50%  {color: #80c41c;}
+  100% {color: #008080;}
+      
+
+
+   }
+
+  #teass
+   {
+   
+
+    animation-name: teass;
+     animation-duration: 3s;
+      animation-iteration-count: infinite;
+      -webkit-animation-name: teass; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    }
+    @keyframes teass{
+      
+  10%  {color: red;}
+  50%  {color: blue;}
+  100% {color: blue;}
+      
+      
+    }
+   @-webkit-keyframes teass{
+ 
+   10%  {color: red;}
+  50%  {color: blue;}
+  100% {color: blue;}
+
+
+   }
+
+#updt
+   {
+   
+
+    animation-name: updt;
+     animation-duration: 3s;
+      animation-iteration-count: infinite;
+      -webkit-animation-name: updt; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    }
+    @keyframes updt{
+      
+  10%  {color: green;}
+  50%  {color: blue;}
+  100% {color: green;}
+      
+      
+    }
+   @-webkit-keyframes teass{
+ 
+   10%  {color: green;}
+  50%  {color: blue;}
+  100% {color: green;}
+
+
+   }
+
+
+
+
+::-moz-selection { /* Code for Firefox */
+ color: white;
+  background: darkblue;
+}
+
+::selection {
+  color: white;
+  background: darkblue;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #7fff00; 
+  border-radius: 4px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: darkblue; 
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #7fff00; 
+}
+
+
+     #mmmmcc
+   {
+   
+
+    animation-name: mmmmcc;
+     animation-duration: 5s;
+      animation-iteration-count: infinite;
+      -webkit-animation-name: mmmmcc; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    }
+    @keyframes mmmmcc{
+      
+  10%  {color: #00FFFF;}
+  30%  {color: #008080;}
+50%  {color: #00FF00;}
+70%  {color: #00FF00;}
+  100% {color: #006400;}
+      
+      
+    }
+   @-webkit-keyframes mmmmcc{
+         
+  10%  {color: #00FFFF;}
+  30%  {color: #008080;}
+50%  {color: #00FF00;}
+70%  {color: #00FF00;}
+  100% {color: #006400;}
+      
+
+
+   }
+
+
+
