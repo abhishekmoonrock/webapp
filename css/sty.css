@@ -1,0 +1,275 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.alert-success{
+  background-color: #00FF7F;
+} 
+
+
+a {
+  text-decoration: none;
+  text-decoration-style: none;
+ }
+
+
+
+
+
+
+
+
+/*back to top button*/
+
+ #button {
+  display: inline-block;
+  background-color: #7FFF00;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+
+  
+}
+
+#button:hover {
+  cursor: pointer;
+  background-color:  #1a8cff;/*#333*/
+  text-decoration-line: none;
+}
+#button:active {
+  background-color: #555;
+  text-decoration-line: none;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+  text-decoration-line: none;
+}
+
+
+/*back to top button*/
+
+
+/*start carousel*/
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.carousel-control { 
+    width: 8%;
+    width: 0px;
+}
+.carousel-control.left,
+.carousel-control.right { 
+    margin-right: 40px;
+    margin-left: 32px; 
+    background-image: none;
+    opacity: 1;
+}
+.carousel-control > a > span {
+    color: white;
+    font-size: 29px !important;
+}
+
+.carousel-col { 
+    position: relative; 
+    min-height: 1px; 
+    padding: 5px; 
+    float: left;
+ }
+
+ .active > div { display:none; }
+ .active > div:first-child { display:block; }
+
+/*xs*/
+@media (max-width: 767px) {
+  .carousel-inner .active.left { left: -50%; }
+  .carousel-inner .active.right { left: 50%; }
+  .carousel-inner .next        { left:  50%; }
+  .carousel-inner .prev        { left: -50%; }
+  .carousel-col                { width: 50%; }
+  .active > div:first-child + div { display:block; }
+}
+
+/*sm*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .carousel-inner .active.left { left: -50%; }
+  .carousel-inner .active.right { left: 50%; }
+  .carousel-inner .next        { left:  50%; }
+  .carousel-inner .prev        { left: -50%; }
+  .carousel-col                { width: 50%; }
+  .active > div:first-child + div { display:block; }
+}
+
+/*md*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .carousel-inner .active.left { left: -33%; }
+  .carousel-inner .active.right { left: 33%; }
+  .carousel-inner .next        { left:  33%; }
+  .carousel-inner .prev        { left: -33%; }
+  .carousel-col                { width: 33%; }
+  .active > div:first-child + div { display:block; }
+  .active > div:first-child + div + div { display:block; }
+}
+
+/*lg*/
+@media (min-width: 1200px) {
+  .carousel-inner .active.left { left: -25%; }
+  .carousel-inner .active.right{ left:  25%; }
+  .carousel-inner .next        { left:  25%; }
+  .carousel-inner .prev        { left: -25%; }
+  .carousel-col                { width: 25%; }
+  .active > div:first-child + div { display:block; }
+  .active > div:first-child + div + div { display:block; }
+  .active > div:first-child + div + div + div { display:block; }
+}
+
+.block {
+  width: 306px;
+  height: 230px;
+}
+
+.red {background: red;}
+
+.blue {background: blue;}
+
+.green {background: green;}
+
+.yellow {background: yellow;}
+/*end carousel*/
+
+  /* Remove the navbar's default margin-bottom and rounded borders 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    end remove this to work*/ 
+
+body
+   {
+font-family: 'Baloo Thambi' !important;
+background: linear-gradient(to right, #00ffb7 0%, #0014ff  100%) no-repeat center center fixed;
+}
+/* start center side  #7B68EE   background color */
+#centerside{
+  background: linear-gradient(to right, #00ffb7 0%, #0014ff  100%) no-repeat center center fixed;
+}
+/* end center side background color */
+/* start right side background color #20B2AA  */
+#rightside {
+ background: linear-gradient(-45deg, #32cd32, #8cff1a, #1a75ff, #003d99);
+  background-size: 900% 900%;
+  animation: gradient 3s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/* start right side background color */
+.example {
+  
+  color: black;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .example {background: red;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .example {background: green;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .example {background: blue;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .example {background: orange;}
+ 
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .example {background: #00FF00;}
+}
+
+#i {
+  
+  display: inline-block;
+  animation: spin 1s infinite linear;
+ 
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes twist-up {
+  to {
+    transform: rotateX(360deg);
+  }
+}
+
+
+
+button {
+  color: white;
+  background-color: #00008b;
+  border-style: none;
+ }
+
+
+
+#link {
+    display:block;
+color:white;
+text-decoration: none;
+}
+
+#link:hover {
+  background-color: blue;
+}
+
+
+
+
+.popover-title {
+   
+    background-color: #0040ff;
+}
+
+
+
